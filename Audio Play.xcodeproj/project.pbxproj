@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		863FFD9D1CFF8C02005CEF19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863FFD9C1CFF8C02005CEF19 /* AppDelegate.swift */; };
+		863FFD9F1CFF8C02005CEF19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863FFD9E1CFF8C02005CEF19 /* ViewController.swift */; };
+		863FFDA21CFF8C02005CEF19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863FFDA01CFF8C02005CEF19 /* Main.storyboard */; };
+		863FFDA41CFF8C02005CEF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863FFDA31CFF8C02005CEF19 /* Assets.xcassets */; };
+		863FFDA71CFF8C02005CEF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863FFDA51CFF8C02005CEF19 /* LaunchScreen.storyboard */; };
+		863FFDAF1CFF8C34005CEF19 /* da hype.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 863FFDAE1CFF8C34005CEF19 /* da hype.mp3 */; };
+		863FFDB11CFF8F75005CEF19 /* video.yahoofinance.com@10d815b5-1cb5-35b6-9887-406d226c4c9e_FULL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 863FFDB01CFF8F75005CEF19 /* video.yahoofinance.com@10d815b5-1cb5-35b6-9887-406d226c4c9e_FULL.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		863FFD991CFF8C02005CEF19 /* Audio Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		863FFD9C1CFF8C02005CEF19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		863FFD9E1CFF8C02005CEF19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		863FFDA11CFF8C02005CEF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		863FFDA31CFF8C02005CEF19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		863FFDA61CFF8C02005CEF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		863FFDA81CFF8C02005CEF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863FFDAE1CFF8C34005CEF19 /* da hype.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "da hype.mp3"; sourceTree = "<group>"; };
+		863FFDB01CFF8F75005CEF19 /* video.yahoofinance.com@10d815b5-1cb5-35b6-9887-406d226c4c9e_FULL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "video.yahoofinance.com@10d815b5-1cb5-35b6-9887-406d226c4c9e_FULL.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		863FFD961CFF8C02005CEF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		863FFD901CFF8C02005CEF19 = {
+			isa = PBXGroup;
+			children = (
+				863FFD9B1CFF8C02005CEF19 /* Audio Play */,
+				863FFD9A1CFF8C02005CEF19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		863FFD9A1CFF8C02005CEF19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				863FFD991CFF8C02005CEF19 /* Audio Play.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		863FFD9B1CFF8C02005CEF19 /* Audio Play */ = {
+			isa = PBXGroup;
+			children = (
+				863FFD9C1CFF8C02005CEF19 /* AppDelegate.swift */,
+				863FFD9E1CFF8C02005CEF19 /* ViewController.swift */,
+				863FFDA01CFF8C02005CEF19 /* Main.storyboard */,
+				863FFDA31CFF8C02005CEF19 /* Assets.xcassets */,
+				863FFDAE1CFF8C34005CEF19 /* da hype.mp3 */,
+				863FFDB01CFF8F75005CEF19 /* video.yahoofinance.com@10d815b5-1cb5-35b6-9887-406d226c4c9e_FULL.jpg */,
+				863FFDA51CFF8C02005CEF19 /* LaunchScreen.storyboard */,
+				863FFDA81CFF8C02005CEF19 /* Info.plist */,
+			);
+			path = "Audio Play";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		863FFD981CFF8C02005CEF19 /* Audio Play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863FFDAB1CFF8C02005CEF19 /* Build configuration list for PBXNativeTarget "Audio Play" */;
+			buildPhases = (
+				863FFD951CFF8C02005CEF19 /* Sources */,
+				863FFD961CFF8C02005CEF19 /* Frameworks */,
+				863FFD971CFF8C02005CEF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Audio Play";
+			productName = "Audio Play";
+			productReference = 863FFD991CFF8C02005CEF19 /* Audio Play.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		863FFD911CFF8C02005CEF19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vladislav Fedotovskiy";
+				TargetAttributes = {
+					863FFD981CFF8C02005CEF19 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 863FFD941CFF8C02005CEF19 /* Build configuration list for PBXProject "Audio Play" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 863FFD901CFF8C02005CEF19;
+			productRefGroup = 863FFD9A1CFF8C02005CEF19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				863FFD981CFF8C02005CEF19 /* Audio Play */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		863FFD971CFF8C02005CEF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863FFDAF1CFF8C34005CEF19 /* da hype.mp3 in Resources */,
+				863FFDA71CFF8C02005CEF19 /* LaunchScreen.storyboard in Resources */,
+				863FFDA41CFF8C02005CEF19 /* Assets.xcassets in Resources */,
+				863FFDA21CFF8C02005CEF19 /* Main.storyboard in Resources */,
+				863FFDB11CFF8F75005CEF19 /* video.yahoofinance.com@10d815b5-1cb5-35b6-9887-406d226c4c9e_FULL.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		863FFD951CFF8C02005CEF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863FFD9F1CFF8C02005CEF19 /* ViewController.swift in Sources */,
+				863FFD9D1CFF8C02005CEF19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		863FFDA01CFF8C02005CEF19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863FFDA11CFF8C02005CEF19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		863FFDA51CFF8C02005CEF19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863FFDA61CFF8C02005CEF19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		863FFDA91CFF8C02005CEF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		863FFDAA1CFF8C02005CEF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		863FFDAC1CFF8C02005CEF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Audio Play/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "neon.Audio-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		863FFDAD1CFF8C02005CEF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Audio Play/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "neon.Audio-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		863FFD941CFF8C02005CEF19 /* Build configuration list for PBXProject "Audio Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863FFDA91CFF8C02005CEF19 /* Debug */,
+				863FFDAA1CFF8C02005CEF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863FFDAB1CFF8C02005CEF19 /* Build configuration list for PBXNativeTarget "Audio Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863FFDAC1CFF8C02005CEF19 /* Debug */,
+				863FFDAD1CFF8C02005CEF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 863FFD911CFF8C02005CEF19 /* Project object */;
+}

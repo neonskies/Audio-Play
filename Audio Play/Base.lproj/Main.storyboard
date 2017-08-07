@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Audio_Play" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video.yahoofinance.com@10d815b5-1cb5-35b6-9887-406d226c4c9e_FULL.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vT0-eb-1ee">
+                                <rect key="frame" x="0.0" y="20" width="320" height="154"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vT0-eb-1ee" secondAttribute="height" multiplier="160:77" id="x8j-bf-Jyv"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ha-nW-Smi">
+                                <rect key="frame" x="0.0" y="219" width="132" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="T2K-q3-uf6"/>
+                                    <constraint firstAttribute="width" constant="132" id="nll-t6-rwg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uAs-BE-lC7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oU5-bu-kbN">
+                                <rect key="frame" x="182" y="219" width="132" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="2kw-Ya-gD3"/>
+                                    <constraint firstAttribute="width" constant="132" id="2pc-9N-NfK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b8x-So-xis"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="H4r-Yv-Cpv">
+                                <rect key="frame" x="14" y="269" width="292" height="31"/>
+                                <connections>
+                                    <action selector="adjustVolume:" destination="BYZ-38-t0r" eventType="valueChanged" id="nuk-AU-u8y"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="H4r-Yv-Cpv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4no-x7-iFA"/>
+                            <constraint firstItem="vT0-eb-1ee" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DyI-IP-5eV"/>
+                            <constraint firstItem="H4r-Yv-Cpv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="H9r-iB-9O8"/>
+                            <constraint firstAttribute="trailing" secondItem="vT0-eb-1ee" secondAttribute="trailing" id="HgM-GB-KTE"/>
+                            <constraint firstAttribute="trailing" secondItem="oU5-bu-kbN" secondAttribute="trailing" constant="6" id="SoM-kN-KHj"/>
+                            <constraint firstItem="7Ha-nW-Smi" firstAttribute="top" secondItem="vT0-eb-1ee" secondAttribute="bottom" constant="45" id="a3l-7q-6JJ"/>
+                            <constraint firstAttribute="trailing" secondItem="vT0-eb-1ee" secondAttribute="trailing" id="fmo-CW-26O"/>
+                            <constraint firstItem="vT0-eb-1ee" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="li9-v5-nJZ"/>
+                            <constraint firstItem="vT0-eb-1ee" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ndK-yc-AqV"/>
+                            <constraint firstItem="H4r-Yv-Cpv" firstAttribute="centerX" secondItem="vT0-eb-1ee" secondAttribute="centerX" id="ru6-3n-i0k"/>
+                            <constraint firstItem="oU5-bu-kbN" firstAttribute="top" secondItem="vT0-eb-1ee" secondAttribute="bottom" constant="45" id="vez-NO-eaB"/>
+                            <constraint firstItem="7Ha-nW-Smi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xJV-kw-Omg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="H4r-Yv-Cpv" id="4G9-B9-9Aq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="459.375" y="394.01408450704224"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="video.yahoofinance.com@10d815b5-1cb5-35b6-9887-406d226c4c9e_FULL.jpg" width="610" height="371"/>
+    </resources>
+</document>
